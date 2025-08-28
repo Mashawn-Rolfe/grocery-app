@@ -23,7 +23,8 @@ export function HeroSection() {
               Get the freshest produce, premium quality meats, and all your grocery essentials delivered right to your doorstep.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
+              <Button 
+              size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
                 Shop Now
               </Button>
               <Button variant="outline" size="lg">
