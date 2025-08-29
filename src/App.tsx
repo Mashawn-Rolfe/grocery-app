@@ -77,6 +77,14 @@ export default function App() {
             onBack={handleBackToHome}
           />
         );
+      case 'category':
+        return (
+          <SearchResults
+            initialQuery={selectedCategory}
+            onProductClick={handleProductClick}
+            onBack={handleBackToHome}
+          />
+        );
       
       case 'home':
       default:
